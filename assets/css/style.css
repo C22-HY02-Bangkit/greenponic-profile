@@ -586,6 +586,10 @@ section {
   left: 0;
   top: -2px;
 }
+
+.about-video .content .details {
+  margin-top: 20px;
+}
 .about-video .content p:last-child {
   margin-bottom: 0;
 }
