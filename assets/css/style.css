@@ -1410,15 +1410,23 @@ section {
   margin-bottom: 5px;
   color: #2a3842;
 }
+
+.contact-section .contact-info .info{
+  display:flex;
+  align-items:center;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
   color: #81b64b;
 }
-.contact .info .email,
+.contact .info .email, .contact .info .address,
 .contact .info .phone {
-  margin-top: 40px;
+  margin-top: 80px;
 }
 .contact .info .email:hover i,
 .contact .info .address:hover i,
